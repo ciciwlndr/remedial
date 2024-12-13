@@ -1,0 +1,23 @@
+
+  
+  /* Menambahkan gaya untuk div */
+div {
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  margin-top: 80px; /* Memberi jarak antara elemen sebelumnya dan div */
+}
+
+/* Menambahkan gaya untuk link Logout */
+a {
+  font-size: 16px; /* Ukuran font */
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  color: white; /* Warna teks putih */
+  background-color: #007BFF; /* Warna latar belakang biru */
+  padding: 20px 20px; /* Memberikan padding pada tombol */
+  border-radius: 20px; /* Memberikan sudut melengkung */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+/* Gaya saat hover (saat kursor berada di atas link) */
+a:hover {
+  background-color: #0056b3; /* Ubah warna latar belakang saat hover */
+}
